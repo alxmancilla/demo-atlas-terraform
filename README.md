@@ -4,7 +4,7 @@ Simple demo of cluster creation in MongoDB Atlas using Terraform
 ## Pre-requirements
 - MongoDB Atlas account
   - Create an account on [MongoDB Atlas](https://cloud.mongodb.com) 
-- Install Terraform
+- Set up Terraform on your machine
   - [Terraform installation guide ](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
 
 ## How to use it
