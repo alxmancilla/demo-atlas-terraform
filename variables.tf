@@ -13,8 +13,8 @@ locals {
   
   # Replace USERNAME And PASSWORD with what you want for your database user
   # https://docs.atlas.mongodb.com/tutorial/create-mongodb-user-for-cluster/
-  mongodb_atlas_database_username  = "demo_user"
-  mongodb_atlas_database_user_password = "d3m0_p4ss"
+  mongodb_atlas_database_username  = "demouser"
+  mongodb_atlas_database_user_password = "d3m0#p4ss"
 
   # Replace IP_ADDRESS with the IP Address from where your application will connect
   # https://docs.atlas.mongodb.com/tutorial/whitelist-connection-ip-address/
