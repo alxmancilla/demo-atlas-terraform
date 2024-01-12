@@ -3,16 +3,22 @@ Sample demo of Terraform for an Atlas deployment
 
 ## How to use it
 
-1. Clone repository
+1. Create API Keys in Atlas
+
+https://www.mongodb.com/docs/atlas/configure-api-access/#grant-programmatic-access-to-service
+
+2. Clone repository
+
+git clone https://github.com/alxmancilla/demo-atlas-terraform.git
 
 
-2. Create API Keys in Atlas 
+4. Change local variables values in variables.tf file
 
 
-3. Change local variables values to your org and project in Atlas
+5. If this is your fist time, initialize environment
 
+terraform init
 
-4. If this is your fist time, initialize environment
+6. Execute it
 
-
-5. Execute it
+terraform apply
